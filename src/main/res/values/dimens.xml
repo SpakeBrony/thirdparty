@@ -1,0 +1,4 @@
+<resources>
+
+    <dimen name="wx_item_radius">50dp</dimen>
+</resources>

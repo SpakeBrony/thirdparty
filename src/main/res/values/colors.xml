@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="login_button">#FFC02F</color>
+    <color name="login_button_true">#D39F27</color>
+    <color name="wx_color_true">#19251A</color>
+    <color name="qq_color_true">#1B2529</color>
+    <color name="zfv_color_true">#202A33</color>
+    <color name="zfv_color">#2C3945</color>
+    <color name="wx_color">#273A28</color>
+    <color name="qq_color">#27363C</color>
+    <color name="age_color">#929398</color>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Object\electrodrumpad\thirdparty\src\main\assets"/><source path="D:\Object\electrodrumpad\thirdparty\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\Object\electrodrumpad\thirdparty\src\release\assets"/></dataSet></merger>

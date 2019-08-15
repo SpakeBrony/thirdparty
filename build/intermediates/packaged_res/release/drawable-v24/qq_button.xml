@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/qq_color_true">
+
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/qq_color_true" />
+                    <corners android:radius="@dimen/wx_item_radius" />
+                </shape>
+            </item>
+            <item android:state_selected="true">
+                <shape>
+                    <solid android:color="@color/qq_color_true" />
+                    <corners android:radius="@dimen/wx_item_radius" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="@color/qq_color" />
+                    <corners android:radius="@dimen/wx_item_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

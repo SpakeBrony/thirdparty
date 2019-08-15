@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161823">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:text="login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/wechat"
+            android:gravity="center"
+            android:background="@drawable/wx_button"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:gravity="center"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_wx" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="WeChat"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/qq"
+            android:background="@drawable/qq_button"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:gravity="center"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_qq_login" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="QQ"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/alipay"
+            android:gravity="center"
+            android:background="@drawable/zfb_button"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:gravity="center"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_zfb" />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="Alipay"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
